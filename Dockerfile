@@ -5,4 +5,4 @@ RUN pip3 install -U -r requirements.txt
 RUN git clone -b main https://github.com/Hirojazz/TessiaEralith /root/Tessia
 WORKDIR /root/Tessia
 COPY . .
-CMD ["python3", "-m", "main_startup"]
+CMD ["python3", "-m", "Tessia"]
